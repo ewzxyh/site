@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    @apply bg-[#dc4480] text-white tracking-wide;
+  }
+  h1,h2,h3,h4,h5,h6{
+    @apply font-bold;
+  }
+
+  h1{
+    @apply text-4xl;
+  }
+  h2{
+    @apply text-3xl;
+  }
+  h3{
+    @apply text-2xl;
+  }
+  h4{
+    @apply text-xl;
+  }
+  h5{
+    @apply text-lg;
+  }
+  h6{
+    @apply text-base;
+  }
+
+  p{
+    @apply font-light;
+    @apply text-lg;
+    @apply text-[#fff];
+  }
+  a{
+    @apply text-[#fff] hover:text-[#fff];
+  }
+
+  li{
+    @apply cursor-pointer;
+  }
+
+  button{
+    @apply bg-[#8213f4] text-white font-bold py-2 px-4 rounded;
+  }
+
+  .btn{
+    @apply bg-[#8231f4] text-white font-bold py-2 px-4 rounded;
+  }
+  .btn:hover{
+    @apply bg-[#8231f4] text-white font-bold py-2 px-4 rounded;
+  }
+}
